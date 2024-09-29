@@ -87,7 +87,13 @@ const BookAppointment: React.FC = () => {
   };
 
   return (
-    <Container sx={{ marginTop: 8 }}>
+    <Container
+      sx={{
+        marginTop: 8,
+        height: "calc(100vh - 64px)", // Adjust based on your navbar height
+        overflowY: "auto", // Allow vertical scrolling
+      }}
+    >
       <Typography variant="h4" gutterBottom>
         Book an Appointment
       </Typography>
@@ -147,7 +153,7 @@ const BookAppointment: React.FC = () => {
       </form>
 
       {/* Display upcoming appointments */}
-      <Box sx={{ marginTop: 4 }}>
+      <Box sx={{ marginTop: 3, mb: 1 }}>
         <Typography variant="h5" gutterBottom>
           Upcoming Appointments
         </Typography>

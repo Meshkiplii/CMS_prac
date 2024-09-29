@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
           sx={{
             flexGrow: 1,
             color: "white",
-            fontSize: { xs: "1.5rem", md: "2rem" },
+            fontSize: { xs: "0.8rem", md: "1rem" },
           }}
         >
           Doctor Appointment
@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
           <Button
             sx={{
               color: "white",
-              fontSize: { xs: "0.8rem", md: "1rem" },
+              fontSize: { xs: "0.7rem", md: "1rem" },
               "&:hover": {
                 backgroundColor: "rgba(255, 255, 255, 0.2)", // Light transparent white on hover
                 color: "yellow", // Change text color on hover
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           <Button
             sx={{
               color: "white",
-              fontSize: { xs: "0.8rem", md: "1rem" },
+              fontSize: { xs: "0.7rem", md: "1rem" },
               "&:hover": {
                 backgroundColor: "rgba(255, 255, 255, 0.2)",
                 color: "yellow",
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
           <Button
             sx={{
               color: "white",
-              fontSize: { xs: "0.8rem", md: "1rem" },
+              fontSize: { xs: "0.7rem", md: "1rem" },
               "&:hover": {
                 backgroundColor: "rgba(255, 255, 255, 0.2)",
                 color: "yellow",
