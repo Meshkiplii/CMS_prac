@@ -52,7 +52,7 @@ const Home: React.FC = () => {
           Book Your Appointment
         </Button>
       </Container>
-      <Box sx={{ marginTop: 4, textAlign: "center" }}>
+      {/* <Box sx={{ marginTop: 4, textAlign: "center" }}>
         <Typography
           variant="body1"
           sx={{ fontSize: { xs: "0.9rem", md: "1.2rem" } }}
@@ -60,7 +60,7 @@ const Home: React.FC = () => {
           Join thousands of satisfied patients and take the first step towards
           better health today!
         </Typography>
-      </Box>
+      </Box> */}
     </Box>
   );
 };
